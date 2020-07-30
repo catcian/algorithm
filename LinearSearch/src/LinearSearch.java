@@ -20,6 +20,11 @@ public class LinearSearch {
         System.out.println(res);
         int res2 = LinearSearch.search(data, 666);
         System.out.println(res2);
-
+        Student[] students = {new Student("Alice"),
+                            new Student("wangchen"),
+                            new Student("Charles")};
+        Student wangchen = new Student("waNgchen");
+        int res3 = LinearSearch.search(students, wangchen);
+        System.out.println(res3);
     }
 }
